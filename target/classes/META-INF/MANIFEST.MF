@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1734099633857
+Build-Jdk: 1.8.0_302
+Built-By: Sameera
+Bundle-ManifestVersion: 2
+Bundle-Name: custom-jwt-transformer
+Bundle-SymbolicName: custom-jwt-transformer
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+DynamicImport-Package: *
+Export-Package: org.wso2.custom.transformer.test;uses:="com.nimbusds.jwt
+ ,org.wso2.carbon.apimgt.common.gateway.jwttransformer";version="1.0.0"
+Import-Package: org.apache.commons.logging;version="1.0.4",com.nimbusds.
+ jwt;resolution:=optional;version="[7.3,8)",org.osgi.framework;resolutio
+ n:=optional;version="[1.6,2)",org.osgi.service.component;resolution:=op
+ tional;version="[1.2,2)",org.wso2.carbon.apimgt.common.gateway.jwttrans
+ former;resolution:=optional;version="[9.20,10)",org.wso2.carbon.apimgt.
+ impl;resolution:=optional;version="[9.20,10)",org.wso2.custom.transform
+ er.test;resolution:=optional
+Require-Capability: osgi.service;filter:="(objectClass=org.wso2.carbon.a
+ pimgt.impl.APIManagerConfigurationService)";effective:=active,osgi.ee;f
+ ilter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/org.example.handlers.xml
+Tool: Bnd-3.2.0.201605172007
