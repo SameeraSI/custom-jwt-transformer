@@ -32,7 +32,10 @@ mvn clean install
 
 ## Deploy the JAR File
 After building, locate the generated JAR file in the target folder.
-Copy the JAR file to the ```<API-M_HOME>/repository/components/dropins directory```
+Copy the JAR file to the: 
+```
+<API-M_HOME>/repository/components/dropins directory
+```
 
 ## Restart the Server
 Restart the WSO2 API Manager to apply the changes.
