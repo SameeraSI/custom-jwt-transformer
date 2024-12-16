@@ -37,12 +37,11 @@ public class ExtendedJWTTransformer extends DefaultJWTTransformer {
     }
 
     /**
-     * This method used to transform JWT claimset from given JWT. In this customization what it dose is if the azp
-     * claim is mapped as multi values attribute, Convert it to a single line.
+     * This method used to transform JWT claimset from given JWT.
      *
      * @param jwtClaimsSet jwtClaimSet from given JWT
      * @return transformed JWT Claims.
-     */
+     **/
 
     @Override
     public JWTClaimsSet transform(JWTClaimsSet jwtClaimsSet) {
