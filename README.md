@@ -42,3 +42,4 @@ Restart the WSO2 API Manager to apply the changes.
 
 ## References
 [JWT Claim Transformation Documentation](https://apim.docs.wso2.com/en/4.1.0/design/api-security/oauth2/access-token-types/jwt-tokens/#jwt-claim-transformation)
+[Extended JWT Transformer for APIM 3.1.0](https://github.com/shagihan/extended-jwt-transformer)
